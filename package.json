@@ -10,7 +10,8 @@
     "clean:purge": "rm -rf dist coverage node_modules",
     "lint": "eslint './src/**/*.ts'",
     "test": "jest --verbose",
-    "test:coverage": "jest --coverage --verbose"
+    "test:coverage": "jest --coverage --verbose",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
